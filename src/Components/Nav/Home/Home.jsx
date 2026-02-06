@@ -2,6 +2,10 @@ import React from "react";
 import mygirl from "../../../assets/mygirl.png";
 import TextChange from "../../TextChange";
 
+
+
+
+
 const Home = () => {
   return (
     <section
@@ -34,9 +38,18 @@ const Home = () => {
         </p>
 
         {/* SMALL BUTTON */}
-        <button className="mt-2 text-white py-1.5 px-4 text-xs md:text-sm hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] w-fit">
-          Contact Me
-        </button>
+   <a
+  href="https://drive.google.com/file/d/1rWMOHnUF92sS1o3rzalAD6fTqAVts6ik/preview"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-2 text-white py-1.5 px-4 text-xs md:text-sm hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] w-fit inline-block"
+>
+  View CV
+</a>
+
+
+
+
       </div>
 
       {/* RIGHT SIDE IMAGE */}
@@ -53,3 +66,4 @@ const Home = () => {
 };
 
 export default Home;
+
